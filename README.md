@@ -1,5 +1,5 @@
 # evm-tools
-Collection of python tools to interact with EVM compatible blockchains
+Collection of tools to interact with EVM compatible blockchains
 
 ## token-sniffer
 Listen for PairCreated events and notify of pair and tx hash via discord webhook.
