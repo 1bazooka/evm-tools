@@ -1,0 +1,7 @@
+asyncio
+argparse
+web3
+logging
+requests
+pathlib
+configparser
