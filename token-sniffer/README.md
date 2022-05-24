@@ -10,13 +10,13 @@ Usage: <p>
 
 # Info
 
-When a new PairCreated event is discovered, Token Sniffer will log the contract addresses of both tokens in the pair, along with thier symbols. This information is then formatted and sent to a discord channel using the webhook defined in the config.json file. The example config.json file is set up for Binance Smart Chain, but Token Sniffer will work on any EVM compatible blockhain as long as the config is properly updated. Token Sniffer will log to STDOUT, and syslog.
+When there is a new PairCreated event log the contract addresses of both tokens in the pair, along with thier symbols. Format this information and send to a discord channel using the webhook defined in the config file. The example bsc.json config file is set up for Binance Smart Chain, but this program will work on any EVM compatible blockhain as long as the config is properly updated. Logs to STDOUT, and syslog.
 
 
 * Example Log:
 
 <pre>
-$./token_sniffer.py run --config ./config.json
+$./token_sniffer.py run --config bsc.json
 [Thu, 04 Nov 2021 19:17:04] INFO [tokensniffer.log] Web3 successfully connected
 [Thu, 04 Nov 2021 19:17:04] INFO [tokensniffer.log] Listening for new contracts                             
 [Mon, 23 May 2022 14:37:49] INFO [tokensniffer.log] Found new token pair 0x6D7Ea6904fF1516E012Abc764902DF970946a324 - 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
