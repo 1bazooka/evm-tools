@@ -7,7 +7,7 @@ import asyncio
 import argparse
 from web3 import Web3
 
-from modules.utils import configure_logger, read_json_conf, send_discord_message
+from utils.utils import configure_logger, read_json_conf, send_discord_message
 
 LOGGER = configure_logger("tokensniffer.log")
 
