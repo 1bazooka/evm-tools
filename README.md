@@ -1,6 +1,6 @@
 # evm-tools
-Collection of tools to interact with EVM compatible blockchains.
-You will need to add the path to the evm-tools to your PYTHONPATH env var for all imports to work as intended.
+Collection of tools to interact with EVM compatible blockchains.<b>
+You will need to add the path to the evm-tools directory you cloned to your PYTHONPATH env var for all imports to work as intended.
 <pre>
  export PYTHONPATH="${PYTHONPATH}:/path/to/evm-tools"
 </pre>
